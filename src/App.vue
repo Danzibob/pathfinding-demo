@@ -1,13 +1,12 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
   <CanvasComponent msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import CanvasComponent from './components/CanvasComponent.vue'
+import CanvasComponent from "./components/CanvasComponent.vue"
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     CanvasComponent
   }
